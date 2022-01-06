@@ -1,0 +1,17 @@
+body {
+    background-color: #480ca8;
+}
+
+.divClass {
+    margin-left: 5px;
+}
+
+.thumbnail {
+    width: 500px;
+    height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+

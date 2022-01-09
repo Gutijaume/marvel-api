@@ -16,7 +16,7 @@
     />
     
     <script type="text/javascript" src="./JS/marvelscript.js"></script>
-    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="stylesheet" href="./styles/styles.css" type="text/css">
     <title>Marvel API</title>
   </head>
   <body>
@@ -98,12 +98,12 @@
       </div>
     </nav>
 
-    <div class="video" class="row">
-      
+    <!--VIDEO INTRODUCTORIO-->
+
+    <div class="video" class="row">      
       <iframe
         width="100%"
         height="315"
-
         src="https://www.youtube.com/embed/os2C0TdDphc"
         title="YouTube video player"
         frameborder="0"
@@ -112,7 +112,41 @@
       ></iframe>
     </div>
 
+     <div class="container-fluid"
+     style="display: flex;
+     align-items: center;
+     margin: auto;
+     justify-content: center;">
+
+      <button type="button" data-function="idOrder" class="btn btn-primary" style = "margin: 2%" >ORDENAR POR ID</button>
+      <button type="button" data-function="nameOrder" class="btn btn-primary" style = "margin: 2%">ORDENAR A-Z</button>
+    </div>
+      
+     
+      
+  
+
     <!--DIVS DINAMICOS DE CONTENIDO API-->
     <div class="card-group" class="row"></div>
+
   </body>
 </html>
+
+
+<!-- <form class="dropdown-menu p-4">
+  <div class="form-group">
+    <label for="exampleDropdownFormEmail2">Email address</label>
+    <input type="email" class="form-control" id="exampleDropdownFormEmail2" placeholder="email@example.com">
+  </div>
+  <div class="form-group">
+    <label for="exampleDropdownFormPassword2">Password</label>
+    <input type="password" class="form-control" id="exampleDropdownFormPassword2" placeholder="Password">
+  </div>
+  <div class="form-check">
+    <input type="checkbox" class="form-check-input" id="dropdownCheck2">
+    <label class="form-check-label" for="dropdownCheck2">
+      Remember me
+    </label>
+  </div>
+  <button type="submit" class="btn btn-primary">Sign in</button>
+</form> -->
